@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gaurav.mindgame.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="vertical">
+
+
+    <Button
+
+        android:id="@+id/single"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content"
+        android:text="Single  Player" />
+
+    <Button
+        android:padding="20dp"
+        android:id="@+id/multi"
+        android:layout_margin="16dp"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Two  Players" />
+
+    <Button
+        android:padding="20dp"
+        android:textSize="32sp"
+        android:layout_margin="16dp"
+        android:background="@android:color/holo_blue_dark"
+        android:id="@+id/help"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help" />
+
+    </LinearLayout>
+</RelativeLayout>
